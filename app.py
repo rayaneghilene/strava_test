@@ -6,7 +6,7 @@ import time
 # CONFIGURATION
 STRAVA_CLIENT_ID = "YOUR_CLIENT_ID"
 STRAVA_CLIENT_SECRET = "YOUR_CLIENT_SECRET"
-REDIRECT_URI = "http://localhost:8501"  # Change this to your deployed Streamlit app if hosted
+REDIRECT_URI = "http://localhost:8501"  
 
 # OAuth & Authentication
 def authenticate_strava(code=None):
